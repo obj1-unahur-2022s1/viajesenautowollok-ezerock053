@@ -1,3 +1,6 @@
+/*
+ * Test OK: Ojo con temer muchos assert en un solo test
+ */
 import remiseras.*
 import oficinaCooperativa.*
 import clientes.*

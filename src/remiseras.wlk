@@ -1,3 +1,7 @@
+/*
+ * Remisera: BIEN
+ */
+
 import clientes.*
 import oficinaCooperativa.*
 
@@ -15,9 +19,9 @@ object gabriela {
 }
 
 object mariela {
-	method precioViaje(cliente, kms) {
-		return 50.max(cliente.precioPorKilometro() * kms)
-		}
+	/* Te dejo la forma resumida. Tambien se puede aplicar en los preciosViaje de los otros objetos */
+	method precioViaje(cliente, kms) = 50.max(cliente.precioPorKilometro() * kms)
+	
 }
 
 object juana {

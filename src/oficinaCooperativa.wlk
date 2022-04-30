@@ -1,3 +1,6 @@
+/*
+ * Oficina: BIEN
+ */
 import remiseras.*
 import clientes.*
 
@@ -19,8 +22,10 @@ object oficina {
 	}
 	
 	method intercambiarRemiseras() {
-		primeraOpcion = segundaOpcion
-		segundaOpcion = primeraOpcion
+		/*
+		 * Este metodo estaba MAL te dejo la solucion correcta
+		 */
+		self.asignarRemiseras(segundaOpcion, primeraOpcion)
 	}
 	
 	method remiseraElegidaParaViaje(cliente, kms) {
